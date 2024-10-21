@@ -2,7 +2,8 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.61"
+      version = "= 5.70" # Does not work: "InvalidParameterValueException: Tags not supported in request"
+#      version = "= 5.69" # Works
     }
   }
 
