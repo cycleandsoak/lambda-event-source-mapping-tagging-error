@@ -22,8 +22,7 @@ resource "aws_lambda_function" "main" {
 }
 
 resource "aws_iam_role" "lambda" {
-  name               = "MinimalPermissions"
-  path               = "/DeviceSettingsService/DataPropagationLambda/"
+  name               = "LambdaEventSourceMappingTaggingErrorExample_SafeToDelete"
   assume_role_policy = data.aws_iam_policy_document.allow_lambda_to_assume_this_role.json
 }
 

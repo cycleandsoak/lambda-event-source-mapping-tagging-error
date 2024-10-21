@@ -1,2 +1,4 @@
 tmp
 .terraform*
+terraform.tfstate
+terraform.tfstate.*
