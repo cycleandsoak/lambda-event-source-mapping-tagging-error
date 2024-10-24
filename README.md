@@ -1,5 +1,7 @@
 # Reproducing a Lambda Event Source Mapping Tagging error
 
+This is the bug report we opened: https://github.com/hashicorp/terraform-provider-aws/issues/39820 (resolution: the terraform provider seems fine, it's probably a permission issue on our side)
+
 Related: https://github.com/aws/aws-cdk/issues/31774
 
 ## Summary
